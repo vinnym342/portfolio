@@ -1,0 +1,10 @@
+.primaryButton {
+  color: var(--secondary);
+  padding: 12px 20px 12px 20px;
+  font-size: 16pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid var(--secondary);
+}

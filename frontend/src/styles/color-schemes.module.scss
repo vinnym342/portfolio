@@ -1,0 +1,104 @@
+:root {
+  .default {
+    --primary: #393e46;
+    --secondary: #00adb5;
+    --tertiary: #aad8d3;
+    --quaternary: #eeeeee;
+    --primary-text: white;
+    --secondary-text: #aad8d3;
+  }
+
+  .earthy {
+    --primary: #8d8741;
+    --secondary: #659dbd;
+    --tertiary: #daad86;
+    --quaternary: #bc986a;
+    --primary-text: white;
+    --secondary-text: #fbeec1;
+  }
+  .brightBlue {
+    --primary: #242582;
+    --secondary: #553d67;
+    --tertiary: #f64c72;
+    --quaternary: #2f2fa2;
+    --primary-text: white;
+    --secondary-text: #f64c72;
+  }
+  .darkBlue {
+    --primary: #05386b;
+    --secondary: #379683;
+    --tertiary: #5cdb95;
+    --quaternary: #8ee4af;
+    --primary-text: white;
+    --secondary-text: #5cdb95;
+  }
+  .brightRed {
+    --primary: #72147e;
+    --secondary: #f21170;
+    --tertiary: #fa9905;
+    --quaternary: #ff5200;
+    --primary-text: #44fcf9;
+    --secondary-text: white;
+  }
+  .darkRed {
+    --primary: black;
+    --secondary: #8eefaf;
+    --tertiary: #5cdb95;
+    --quaternary: #907163;
+    --primary-text: white;
+    --secondary-text: #5cdb95;
+  }
+  .bloodRed {
+    --primary: #501b1d;
+    --secondary: #2e1114;
+    --tertiary: #64485c;
+    --quaternary: #83677b;
+    --primary-text: white;
+    --secondary-text: #adadad;
+  }
+
+  .frozen {
+    --primary: #f9f7f7;
+    --secondary: #dbe2ef;
+    --tertiary: #3f72af;
+    --quaternary: #83677b;
+    --primary-text: white;
+    --secondary-text: #112d4e;
+  }
+
+  .turquoise {
+    --primary: #02475e;
+    --secondary: #687980;
+    --tertiary: #f3bda1;
+    --quaternary: #fefecc;
+    --primary-text: white;
+    --secondary-text: #f3bda1;
+  }
+
+  .cartoonSea {
+    --primary: #e4f9f5;
+    --secondary: #30e3ca;
+    --tertiary: #11999e;
+    --quaternary: #40514e;
+    --primary-text: #11999e;
+    --secondary-text: #30e3ca;
+  }
+
+  .tetris {
+    --primary: #120136;
+    --secondary: #035aa6;
+    --tertiary: #40bad5;
+    --quaternary: #fcbf1e;
+    --primary-text: #40bad5;
+    --secondary-text: #fcbf1e;
+  }
+
+  .lime {
+    --primary: #45eba5;
+    --secondary: #21aba5;
+    --tertiary: #1d566e;
+    --quaternary: #163a5f;
+    --primary-text: #1d566e;
+    --secondary-text: #163a5f;
+  }
+}

@@ -1,0 +1,117 @@
+$drawer-width: 15vw;
+$drawer-width-small: 50vw;
+.colorMenu {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.drawer {
+  width: $drawer-width;
+  border: 0;
+  position: relative;
+
+  .drawerHeader {
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    display: "flex";
+    align-items: "center";
+    width: 15vw;
+    height: 35px;
+    z-index: 2;
+
+    .drawerClose {
+      width: 100%;
+    }
+  }
+
+  .drawerContainer {
+    margin-top: 35px;
+    width: $drawer-width;
+
+    .drawerContent {
+      width: 100%;
+      display: "flex";
+      flex-wrap: "wrap";
+      justify-content: "space-around";
+      height: 100%;
+
+      .gridList {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        display: flex;
+        overflow-x: auto;
+        transform: "translateZ(0)";
+        flex-wrap: nowrap !important;
+        flex-direction: column;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        .tilePalette {
+          height: 100%;
+          width: 100%;
+
+          .main {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+
+            .primary {
+              height: 100%;
+              background-color: var(--primary);
+              height: 60%;
+              width: 100%;
+            }
+
+            .secondary {
+              background-color: var(--secondary);
+              height: 100%;
+              flex-grow: 10px;
+              height: 30%;
+              width: 100%;
+            }
+
+            .tertiary {
+              background-color: var(--tertiary);
+              height: 10%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .title {
+    color: white;
+  }
+
+  .titleBar {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.3) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .drawer {
+    width: $drawer-width-small;
+
+    .drawerHeader {
+      width: $drawer-width-small;
+    }
+    .drawerContainer {
+      width: $drawer-width-small;
+    }
+  }
+}

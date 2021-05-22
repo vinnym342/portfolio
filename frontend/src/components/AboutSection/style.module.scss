@@ -1,0 +1,28 @@
+.aboutSection {
+  background-color: var(--secondary);
+  color: var(--primary-text);
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      padding: 100px 0 5px 0;
+      margin: 0;
+    }
+
+    .headerBar {
+      background: var(--primary-text);
+      height: 4px;
+      margin: 10px 0 75px 0;
+      width: 70px;
+    }
+  }
+}
